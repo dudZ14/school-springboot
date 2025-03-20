@@ -7,11 +7,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 public class SchoolApplication {
 
 	public static void main(String[] args) {
-		/*var ctx =*/ SpringApplication.run(SchoolApplication.class, args);
-
-		//MyFirstService myFirstService = ctx.getBean(MyFirstService.class);
-		//System.out.println(myFirstService.tellStory());
-
+		SpringApplication.run(SchoolApplication.class, args);
 	}
 
 }
